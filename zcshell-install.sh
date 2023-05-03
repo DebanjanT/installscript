@@ -19,8 +19,8 @@ echo "PORT=9293" > .env
 # install dependencies
 yarn install
 
-# run server
-yarn dev
+# run server 
+pm2 start "yarn dev"
 
 
 
