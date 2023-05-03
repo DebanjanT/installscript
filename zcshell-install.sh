@@ -6,6 +6,10 @@ node -v
 echo npm Version
 npm -v
 
+echo yarn Version
+yarn -v
+
+
 git clone https://github.com/DebanjanT/zcshell.git zcshell
 cd zcshell
 
